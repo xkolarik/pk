@@ -11,9 +11,10 @@ object LocaleUtils {
 
     val CHINESE = "zh"
     val ENGLISH = "en"
+    val SAFADOS = "pt"
 
     private val PREF_LANGUAGE = "language"
-    private val SUPPORTED_LANGUAGE = Arrays.asList(ENGLISH, CHINESE)
+    private val SUPPORTED_LANGUAGE = Arrays.asList(ENGLISH, CHINESE, SAFADOS)
 
     fun onAttach(context: Context): Context {
         val lang = getPersistedData(context, getDefaultLanguage())

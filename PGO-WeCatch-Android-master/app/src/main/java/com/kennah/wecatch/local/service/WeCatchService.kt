@@ -13,9 +13,9 @@ import javax.inject.Inject
 class WeCatchService @Inject constructor (private val context: Context, private val api:API): DataService {
 
     @JvmField
-    var swHK = arrayOf(37.809326, -122.409981)
+    var swHK = arrayOf(39.936417, -123.203019)
     @JvmField
-    var neHK = arrayOf(37.75961, -122.447728)
+    var neHK = arrayOf(41.080732, 145.368754)
 
     override fun getRarePokemonList(): WeCatch {
 
